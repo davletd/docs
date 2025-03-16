@@ -1,0 +1,170 @@
+---
+title: "Cloudgeni AI Agent"
+description: "A comprehensive guide to using Cloudgeni AI Agent for infrastructure management"
+---
+
+# Cloudgeni AI Agent
+
+Cloudgeni AI Agent is a powerful tool designed to help you manage and monitor your infrastructure, identify issues, and ensure compliance with best practices. This guide will walk you through the process of setting up and using Cloudgeni AI Agent for your repositories.
+
+<img
+  className="block"
+  src="/images/cloudgeni/cloudgeni-dashboard.png"
+  alt="Cloudgeni Dashboard"
+/>
+
+## Overview
+
+Cloudgeni AI Agent provides several key features:
+
+- **Infrastructure Management**: Monitor and manage infrastructure issues
+- **Cloud Compliance**: Track cloud security and compliance requirements
+- **Cost Optimization**: Optimize your cloud costs (coming soon)
+
+## Getting Started with Cloudgeni AI Agent
+
+### Step 1: Accessing the Cloudgeni Platform
+
+1. Navigate to the Cloudgeni platform at https://beta.cloudgeni.ai
+2. Sign in with your credentials
+3. You'll be presented with the Cloudgeni dashboard
+
+### Step 2: Adding organization
+
+1. From the top bar, click on "Add Organization"
+2. You'll see a list of organizations you have access to in the github.
+3. Select your organization
+4. In the "Repositories" section you'll see available repositories
+5. Choose the specific repository you want to monitor
+6. Save your changes
+
+<img
+  className="block"
+  src="/images/cloudgeni/select-repository.png"
+  alt="Selecting a Repository in Cloudgeni"
+/>
+
+### Step 3: Installing & Authorizing the Cloudgeni AI Agent
+
+1. You'll be prompted to install and authorize the Cloudgeni AI Agent
+2. Choose the scope of repositories:
+   - **All repositories**: Apply to all current and future repositories owned by the resource owner (includes public repositories in read-only mode)
+   - **Only select repositories**: Choose specific repositories to monitor (includes public repositories in read-only mode)
+3. If you selected "Only select repositories," click the "Select repositories" dropdown and choose the repository you want to monitor (e.g., "cloudgeni-ai/cloudgeni-iac")
+4. Review the permissions being granted:
+   - Read access to members and metadata
+   - Read and write access to administration, code, commit statuses, environments, issues, pull requests, and workflows
+   - Read access to email addresses
+5. Note that installing and authorizing Cloudgeni AI Agent immediately grants these permissions to your account
+6. Click "Install & Authorize" to proceed
+7. You'll be redirected to complete the authorization process at https://beta.cloudgeni.ai/auth/github/callback
+
+<img
+  className="block"
+  src="/images/cloudgeni/install-authorize.png"
+  alt="Installing and Authorizing Cloudgeni AI Agent"
+/>
+
+### Step 4: Accessing the Dashboard
+
+After installation, you'll be taken to the Cloudgeni dashboard, which includes three main sections:
+
+1. **Infrastructure Management**: Shows the status of your infrastructure with any open issues (e.g., "2 open issues")
+2. **Cloud Compliance**: Monitors your cloud security and compliance status (may show "Configuration needed" if not yet set up)
+3. **Cost Optimization**: Helps optimize your cloud costs (marked as "Coming Soon")
+
+<img
+  className="block"
+  src="/images/cloudgeni/dashboard.png"
+  alt="Cloudgeni Dashboard"
+/>
+
+## Using Infrastructure Management
+
+The Infrastructure Management section provides visibility into your infrastructure issues:
+
+1. Click on "Infrastructure Management" from the dashboard
+2. You'll see a summary of open issues from github (e.g., "2 open issues")
+3. Click to view detailed information about each issue
+
+## Viewing and Fixing Infrastructure Issues
+
+When you navigate to the Infrastructure Issues page, you'll see:
+
+1. A list of open issues from your github issue tracker
+2. Each issue includes a detailed description of the problem
+3. For each issue, you can click the "Fix" button to address it automatically
+
+<img
+  className="block"
+  src="/images/cloudgeni/infrastructure-issues.png"
+  alt="Infrastructure Issues in Cloudgeni"
+/>
+
+### How to Fix Infrastructure Issues
+
+1. Review the issue description to understand the problem
+2. Click the "Fix" button next to the issue
+3. Cloudgeni AI Agent will automatically implement the recommended solution
+4. Once fixed, the issue will have link to the Pull Request
+
+## Cloud Compliance Monitoring
+
+The Cloud Compliance section helps ensure your infrastructure follows security best practices:
+
+1. Navigate to the "Cloud Compliance" section from the dashboard
+2. If configuration is needed, you'll see a "Configuration needed" status with a warning icon
+3. Follow the prompts to set up compliance monitoring for your repository
+4. Once configured, you'll receive regular compliance checks and recommendations
+
+<img
+  className="block"
+  src="/images/cloudgeni/cloud-compliance.png"
+  alt="Cloud Compliance in Cloudgeni"
+/>
+
+### Compliance Features
+
+- **Security Scanning**: Identifies potential security vulnerabilities
+- **Best Practices**: Ensures your infrastructure follows cloud provider best practices
+- **Regulatory Compliance**: Helps maintain compliance with industry standards and regulations
+
+## Repository Selection and Management
+
+You can manage multiple repositories through the Cloudgeni platform:
+
+1. Click on the repository name in the top navigation bar
+2. Select "Back" to return to the repository selection screen
+3. Choose a different repository to manage
+4. You can also add new organizations by clicking the "Add Organization" button
+
+<img
+  className="block"
+  src="/images/cloudgeni/repository-selection.png"
+  alt="Repository Selection in Cloudgeni"
+/>
+
+## Best Practices
+
+When using Cloudgeni AI Agent, consider these best practices:
+
+1. **Regular Monitoring**: Check your dashboard regularly for new issues
+2. **Prompt Resolution**: Address infrastructure issues as soon as they're identified
+3. **Team Collaboration**: Share access with team members responsible for infrastructure
+4. **Compliance Reviews**: Regularly review compliance status to ensure security standards are met
+5. **Version Control**: Use Cloudgeni alongside your existing version control practices
+
+## Troubleshooting
+
+If you encounter issues with Cloudgeni AI Agent:
+
+1. Verify your repository connection is active
+2. Check that the AI Agent has the necessary permissions
+3. Ensure your organization settings allow for third-party integrations
+4. Contact support if issues persist
+
+## Conclusion
+
+Cloudgeni AI Agent streamlines infrastructure management by automatically identifying issues, ensuring compliance, and optimizing costs. By following this guide, you can effectively leverage Cloudgeni AI Agent to maintain a robust and efficient infrastructure for your applications.
+
+For additional support or questions, refer to the Cloudgeni documentation or contact the support team. 

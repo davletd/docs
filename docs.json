@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Cloudgeni Documentation",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#1E3A8A",
+    "light": "#3B82F6",
+    "dark": "#1E40AF"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -16,40 +16,13 @@
           {
             "group": "Get Started",
             "pages": [
-              "introduction",
-              "quickstart",
-              "development"
+              "introduction"
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Infrastructure Management",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "cloudgeni-ai-agent"
             ]
           }
         ]
@@ -58,18 +31,13 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
           "anchor": "Community",
-          "href": "https://mintlify.com/community",
+          "href": "https://join.slack.com/share/enQtODYxMTE1MzA4MjgzNC1iZDgxMGUxY2IzMjZjZTA0MzkzNmY1NTBiNGU1ZWIzMzc4MjU2NjQ1NDAzNTcxNjBiY2IwYmRkODRhY2RmOThl",
           "icon": "slack"
         },
         {
           "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
+          "href": "https://davletd.medium.com/",
           "icon": "newspaper"
         }
       ]
@@ -83,20 +51,20 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@cloudgeni.ai"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "href": "https://beta.cloudgeni.ai"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/cloudgeni",
+      "github": "https://github.com/cloudgeni",
+      "linkedin": "https://linkedin.com/company/cloudgeni"
     }
   }
 }
